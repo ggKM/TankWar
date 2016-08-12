@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#userinfo {
+	margin:0px auto;
+	width:800px;
+	height:500px;
+	margin-top:100px;
+	text-align:center;}
+table {
+	text-align:center;
+	margin:0px auto;
+	padding:10px;
+	}
+td{
+	width:200px;
+}
+.warn {
+	color:red;
+	}
+#question {
+	text-align:center;
+	margin:0px auto;
+	margin-top:100px;
+	width:800px;
+}

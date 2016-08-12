@@ -1,0 +1,57 @@
+create database exam
+
+create table user
+(id int primary key auto_increment,
+name varchar(40),
+password varchar(40)
+)
+
+create table question
+(id int primary key AUTO_INCREMENT,
+categoryId int(11) ,
+cont varchar(255) ,
+optionA varchar(20),
+optionB varchar(20) ,
+optionC varchar(20) ,
+optionD varchar(20) ,
+answer varchar(2) ,
+
+)
+
+CREATE TABLE category (
+id int primary key AUTO_INCREMENT,
+name varchar(255)
+)
+
+insert into question values (null,1,'对8位补码操作数(A5)16，进行2位算术右移的结果为 ___。','(D2)16','(52)16 ','(E9)16','(69)16','C')
+
+insert into question values (null,1,'CD光盘记录信息的轨迹叫光道，信息存储在____的光道上。','一条圆形 ','多条同心环形 ','一条渐开的螺旋形','多条螺旋形','C')
+
+
+insert into question values (null,1,'下列几种存储器中，存取周期最短的是____。','软盘 ','硬盘','光盘','内存','D')
+
+
+insert into question values (null,1,'与十进制数254等值的二进制数是_____。','11111110','11101111','11111011','11101110','A')
+
+
+insert into question values (null,1,'无符号数A减去无符号数B，结果的进位标志为1表明____。','A≥B','A<B','A=B','A>B','B')
+
+insert into question values (null,1,'计算机的控制器是由多种部件组成的，其中不包括____。','指令寄存器IR','程序计数器PC(指令指针寄存器IP)','算术逻辑单元ALU','程序状态字寄存器PSW','C')
+
+insert into question values (null,1,'连接打印机不能使用____。','RS--232C接口总线','IEEE-1284接口总线','CENTRONIC接口总线 ','AGP接口','D')
+
+insert into question values (null,1,'在微型计算机中，采用中断方式的优点之一是____。','简单且容易实现','CPU可以不工作','可实时响应突发事件 ','传送速度最快','C')
+
+insert into question values (null,1,'____的说法是正确的。','内存地址不能作为接口地址','内存地址可以作为接口地址','接口地址不可用作外存地址','接口地址可用作内存地址','B')
+
+insert into question values (null,1,'某程序的目标代码为16384个字节，将其写到以字节编址的内存中，以80000H 为首地址开始依次存放，则存放该目标程序的末地址为__。','81000H','83FFFH','84FFFH','86000H','B')
+ 
+insert into question values (null,1,'构成运算器需要多个部件，____ 不是构成运算器的部件。','加法器','累加器','地址寄存器','ALU(算术逻辑部件)','C')
+  
+insert into question values (null,1,'程序计数器(或指令地址寄存器)属于CPU的__ 部件。','运算器 ','控制器 ','存储器 ','I/O接口','B')
+
+insert into question values (null,1,'控制机器指令执行的微程序存放在__中。','控制存储器','指令寄存器 ','内部寄存器','SRAM','A')
+
+insert into question values (null,2,'在进行原码乘法时，乘积的符号位是由被乘数的符号位和乘数的符号位通过 ____运算来获得的。','或','与','异或','分别取反后再进行或','C')
+
+insert into question values (null,2,'在主存和CPU之间增加Cache的目的是__。','增加内存容量','为程序员编程提供方便 ','解决CPU与内存间的速度匹配问题','提供内存工作的可靠性','C')

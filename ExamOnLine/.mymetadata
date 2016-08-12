@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ExamOnLine"
+  id="myeclipse.1367137714761"
+  context-root="/ExamOnLine"
+  j2ee-spec="5.0"
+  archive="ExamOnLine.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
